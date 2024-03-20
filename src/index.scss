@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+:root {
+    /*spacing*/
+    --spacing-sm: 2px;
+    --spacing-sm-1: 5px;
+    --spacing-sm-2: 10px;
+    --spacing-md: 20px;
+    --spacing-md-1: 30px;
+    --spacing-lg: 40px;
+    --spacing-lg-1: 60px;
+    --spacing-lg-2: 80px;
+
+    /*color*/
+    --main-color: #111111;
+    --sub-color-1: #1e1e1e;
+    --sub-color: #868686;
+    --white-color: #ffffff;
+
+    /*font size*/
+    --font-s-sm: 0.6rem;
+    --font-s-sm-1: 0.8rem;
+    --font-s-md: 1rem;
+    --font-s-md-1: 1.2rem;
+    --font-s-lg: 1.4rem;
+    --font-s-lg-1: 1.6rem;
+    --font-s-lg-2: 1.8rem;
+
+    /* border radius */
+    --border-r-sm: 5px;
+    --border-r-md: 10px;
+    --border-r-mch: 9999px;
+
+    /* z-index */
+    --z-highest: 9999;
+    --z-higher: 99;
+    --z-high: 1;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    font-size: 87.5%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    color: var(--contrast-color);
+}
+
+#root {
+    height: 100%;
+}
+
+button {
+    border: none;
+}
+
+a,
+Link {
+    color: var(--contrast-color);
+    text-decoration: none;
+}
+
+button,
+input,
+textarea {
+    outline: none;
+}
+
+input {
+    color: var(--contrast-color);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
